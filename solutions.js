@@ -20,3 +20,7 @@
  * and
  * concat
  */
+
+function isTrue() {
+test
+}
