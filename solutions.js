@@ -126,3 +126,16 @@ function isIdentical(input1, input2) {
 function isEqual(input1, input2) {
     return input1 == input2;
 }
+
+// 8. Define a function named or that takes in two input arguments. The output returned should be the result of an or operation on both inputs.
+//
+//  or(true, true)                    // true
+//  or(true, false)                   // true
+//  or(false, true)                   // true
+//  or(false, false)                  // false
+//  or("hello", "world")              // "hello" (this behavior is non-obvious, research more!)
+
+function or(input1, input2) {
+    return input1 || input2;
+}
+
