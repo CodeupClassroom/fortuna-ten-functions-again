@@ -82,5 +82,21 @@ function not(input){
 // addOne(NaN)                  // NaN
 
 function addOne(input) {
-    return Number(input)+1;
+    return parseFloat(input)+1;
 }
+
+// 5. Define a function named isEven that takes in a single input. If the input is an even number or a string containing an even number, return true. Any other input should return false for the output.
+//
+// isEven(2)                   // true
+// isEven(-8)                  // true
+// isEven(0)                   // true
+// isEven("42")                // true
+// isEven(1)                   // false
+// isEven("-3")                // false
+// isEven(false)               // false
+// isEven("banana")            // false
+
+function isEven(input) {
+    return parseFloat(input)%2 === 0;
+}
+
